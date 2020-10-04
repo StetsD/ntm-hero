@@ -1,0 +1,22 @@
+POST http://localhost:3000/tasks
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "title": "test title",
+  "description": "test desc 2"
+}
+
+<> 2020-10-04T032252.201.json
+
+###
+
+GET http://localhost:3000/tasks
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-10-04T032300.200.json
+
+###
